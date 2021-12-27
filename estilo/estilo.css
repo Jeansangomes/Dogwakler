@@ -1,4 +1,4 @@
-@charset "UTF 8"; 
+@charset "UTF 8";
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
@@ -7,16 +7,17 @@
   --fonte-destaque: 'Pacifico', cursive;
 
   --cor1: #B0DB43;
-  --cor2:#34623F;
-  --cor3:#001F54;
-  --cor4:#533A71;
-  --cor5:#DDC4DD;
+  --cor2: #34623F;
+  --cor3: #001F54;
+  --cor4: #533A71;
+  --cor5: #DDC4DD;
 }
 
 * {
   margin: 0px;
   padding: 0px;
 }
+
 header {
   background-color: var(--cor1);
   width: 100%;
@@ -25,13 +26,14 @@ header {
   padding: 17px;
 }
 
-nav > a {
-  color: #454545;;
+nav>a {
+  color: #454545;
+  ;
   padding: 10px;
   text-decoration: none;
   font-weight: lighter;
 }
 
-nav > a:hover {
+nav>a:hover {
   color: gray;
 }
