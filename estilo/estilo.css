@@ -16,6 +16,9 @@
   margin: 0px;
   padding: 0px;
 }
+html {
+  max-width:1502px;
+}
 
 header {
   background-color: var(--cor1);
@@ -24,7 +27,11 @@ header {
   margin: 0px;
   padding: 17px;
 }
-
+div {
+background-color: white;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+height: 70px;
+}
 nav>a {
   color: #454545;
   ;
@@ -36,3 +43,30 @@ nav>a {
 nav>a:hover {
   color: gray;
 }
+.icone-do-header {
+width: 1%;
+margin-left: 100%;
+display: inline;
+}
+
+main{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: white;
+  }
+main h1, p {
+  text-align: center;
+  padding: 5px;
+}
+article > img {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  }
+  footer p {
+    text-align: center;
+  }
